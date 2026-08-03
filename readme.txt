@@ -17,7 +17,8 @@ git log to check the log history
 git log --oneline for a compact view of the log
 
 #staging and unstaging 
-git add filename                  to stage the file 
+git add filename                  to stage the file
+git add .                         stage all the changed files in the current firectory 
 git restrore --staged filename    to unstage the file 
 git reset HEAD filename           lagacy command for unstagging 
 
