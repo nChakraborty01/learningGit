@@ -13,8 +13,8 @@ step 5 stage the changes using git add
 step 6 commit the changes using git commit -m ""
 
 #checking logs 
-git log to check the log history
-git log --oneline for a compact view of the log
+git log                           to check the log history
+git log --oneline                 for a compact view of the log
 
 #staging and unstaging 
 git add filename                  to stage the file
@@ -24,10 +24,12 @@ git reset HEAD filename           lagacy command for unstagging
 
 
 #Branch
-git branch            list of branches that you have created
+git branch                        list of branches that you have created
 git checout
-    git checkout branchname
-    git checkout commitid  
+    git checkout branchname       switch to the branch 
+    git checkout commitid         switch to the commit id in detached mode
 git switch 
-    git switch -      switch back the previous branch 
-    git switch -c    new branch to crate and switch to new branch
+    git switch -                  switch back the previous branch 
+    git switch -c                 new branch to crate and switch to new branch
+
+
