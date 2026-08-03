@@ -24,4 +24,10 @@ git reset HEAD filename           lagacy command for unstagging
 
 
 #Branch
-git brach will show how the list of branches that you have created
+git branch            list of branches that you have created
+git checout
+    git checkout branchname
+    git checkout commitid  
+git switch 
+    git switch -      switch back the previous branch 
+    git switch -c    new branch to crate and switch to new branch
