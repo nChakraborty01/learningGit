@@ -17,10 +17,9 @@ git log to check the log history
 git log --oneline for a compact view of the log
 
 #staging and unstaging 
-we use git add filename to stage the file 
-before commiting the changes if you fill that any further change is require you should first
-unstage the file , make changes and then again stage the file for commit
-git restrore --staged filename to unstage the file 
+git add filename                  to stage the file 
+git restrore --staged filename    to unstage the file 
+git reset HEAD filename           lagacy command for unstagging 
 
 
 #Branch
