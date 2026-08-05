@@ -25,11 +25,24 @@ git reset HEAD filename           lagacy command for unstagging
 
 #Branch
 git branch                        list of branches that you have created
-git checout
+git branch newbranch              creates new branch
+
+git checout                       older command mostly use with the commit id 
     git checkout branchname       switch to the branch 
     git checkout commitid         switch to the commit id in detached mode
+
 git switch 
+    git switch branch name        swicth to branch
     git switch -                  switch back the previous branch 
     git switch -c                 new branch to crate and switch to new branch
+
+
+
+Merging 
+step 1 switch to the master Branch
+step r merge the branch with main branch using command git merge branch name 
+
+git switch master 
+git merge branchname 
 
 
